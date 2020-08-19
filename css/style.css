@@ -7,11 +7,25 @@ body {
     margin: 0;
     color: white;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 945px;
     margin: auto;
+}
+
+.section {
+    padding-top: 64px;
+    padding-bottom: 92px;
+}
+
+.section-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 84px;
 }
 
 .hero {
@@ -43,6 +57,10 @@ a svg:hover #github{
     margin-left: 20px;
 }
 
+.social-link:first-child {
+    margin-left: 0;
+}
+
 .hero-content {
     display: flex;
     justify-content: space-between;
@@ -50,7 +68,7 @@ a svg:hover #github{
 }
 
 .hero-subtitle {
-    display: inline-block;
+    display: block;
     font-size: 24px;
     line-height: 28px;
     color: #FFBB01;
@@ -97,4 +115,145 @@ a svg:hover #github{
     background-position: center top -35px;
     background-size: cover;
     border: 5px solid #FFBB01;
+}
+
+/* features */
+.features {
+    background-color: rgb(0, 0, 0);
+}
+
+.features-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features-item {
+    flex-basis: 30%;
+    margin-bottom: 63px;
+}
+
+.features-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.features-image {
+    display: block;
+    margin-bottom: 22px;
+}
+
+.features-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+/* contacts */
+.contacts-form {
+    background: #FFFFFF;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    max-width: 380px;
+    padding: 40px 48px 49px 49px;
+}
+
+.form-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 29px;
+}
+
+.input {
+    background: #F8F8F8;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    padding: 18px 20px;
+    padding-left: 50px;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    line-height: 28px;
+    color: #949494;
+}
+
+.input-name {
+    margin-bottom: 17px;
+    background-image: url(../img/contacts/user-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+
+.input-phone {
+    margin-bottom: 17px;
+    background-image: url(../img/contacts/phone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+
+.form-button {
+    width: 100%;
+}
+
+/* contacts */
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-text {
+    flex-basis: 50%;
+}
+
+.contacts-data {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+}
+
+.contacts-phone,
+.contacts-mail {
+    flex-basis: 50%;
+    margin-bottom: 53px;
+}
+
+.contacts-social {
+    flex-basis: 100%;
+}
+
+.contacts-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 37px;
+}
+
+.contacts-link:hover {
+    text-decoration: underline; 
+}
+
+.contacts-police {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: underline;
+    color: #A5A5A5;
+    display: inline-block;
+    margin-top: 72px;
 }
