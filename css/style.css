@@ -153,6 +153,94 @@ a svg:hover #github{
     margin: 0;
 }
 
+/* projects */
+.projects {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projects-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project-text {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-title {
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+
+.progect-time,
+.project-cost {
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+
+.progect-time,
+.project-cost,
+.project-feedback {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+
+.project-paragraph {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 481px;
+}
+
+.project-icon {
+    margin-right: 16px;
+}
+
+.project-bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.project-bullet-active {
+background-color: #FFBB01;
+}
+
+.project-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.project-image {
+    width: 338px;
+    height: 268px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
 /* contacts */
 .contacts-form {
     background: #FFFFFF;
