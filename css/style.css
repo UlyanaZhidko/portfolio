@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     background-color: #20202d;
     margin: 0;
@@ -13,6 +17,7 @@ body {
 .container {
     max-width: 945px;
     margin: auto;
+    width: 90%;
 }
 
 .section {
@@ -344,4 +349,135 @@ background-color: #FFBB01;
     color: #A5A5A5;
     display: inline-block;
     margin-top: 72px;
+}
+
+/* media */
+@media (max-width: 1100px) {
+    .hero-avatar {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 836px) {
+    .hero-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-avatar {
+        order: 0;
+        margin-bottom: 17px;
+    }
+    .hero-text {
+        order: 1;
+        text-align: center;
+    }
+    .features-item {
+        flex-basis: 45%;
+    }
+    .projects-slide {
+        flex-direction: column;
+    }
+    .project-image {
+        margin-bottom: 46px;
+    }
+    .contacts-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contacts-form {
+        margin-bottom: 58px;
+    }
+}
+
+@media (max-width: 564px) {
+    .hero {
+        padding-bottom: 75px;
+    }
+    .hero-avatar {
+        width: 113px;
+        height: 113px;
+        border: 3px solid #FFBB01;
+        background-position: center top -9px;
+    }
+    .hero-header {
+        margin-bottom: 38px;
+    }
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .hero-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 4px;
+    }
+    .hero-discription {
+        font-size: 14px;
+        line-height: 140%;
+        margin-bottom: 68px;
+    }
+    .section {
+        padding: 60px 0;
+    }
+    .hero-title {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .features-item {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .features-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .features-text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .project-title {
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .progect-time, 
+    .project-cost,
+    .project-feedback {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .project-paragraph {
+        max-width: 210px;
+        font-size: 14px;
+    }
+    .contacts-form {
+        padding: 40px 19px;
+    }
+    .form-title {
+        font-size: 15px;
+        line-height: 140%;
+    }
+    .form-button {
+        font-size: 10px;
+    }
+    .contacts-phone, 
+    .contacts-mail {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .contacts-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .contacts-link {
+        font-size: 14px;
+        line-height: 16px;
+        display: block;
+        margin-bottom: 13px;
+    }
+    .project-pagination {
+        margin-top: 10px;
+    }
 }
