@@ -12,3 +12,8 @@ var mySwiper = new Swiper('.swiper-container', {
         clickable: true
     },
 });
+
+
+/* очищение инпутов */
+document.getElementById('input-name').value = "";
+document.getElementById('input-phone').value = "";

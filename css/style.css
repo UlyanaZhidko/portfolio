@@ -108,6 +108,7 @@ a svg:hover #github{
     text-transform: uppercase;
     color: #2E2E30;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .hero-avatar {
@@ -138,14 +139,6 @@ a svg:hover #github{
     margin-bottom: 63px;
 }
 
-.features-title {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0;
-    margin-bottom: 16px;
-}
-
 .features-image {
     display: block;
     margin-bottom: 22px;
@@ -169,6 +162,10 @@ a svg:hover #github{
     justify-content: space-between;
 }
 
+.swiper-slide-next {
+    opacity: 0;
+}
+
 .project-text {
     flex-basis: 60%;
     display: flex;
@@ -184,14 +181,12 @@ a svg:hover #github{
     margin-bottom: 41px;
 }
 
-.progect-time,
-.project-cost {
+.progect-time {
     flex-basis: 50%;
     margin-bottom: 44px;
 }
 
 .progect-time,
-.project-cost,
 .project-feedback {
     display: flex;
     align-items: flex-start;
@@ -283,6 +278,7 @@ background-color: #FFBB01;
     background-image: url(../img/contacts/user-icon.svg);
     background-repeat: no-repeat;
     background-position: center left 20px;
+    color: #20202d;
 }
 
 .input-phone {
@@ -290,13 +286,13 @@ background-color: #FFBB01;
     background-image: url(../img/contacts/phone-icon.svg);
     background-repeat: no-repeat;
     background-position: center left 20px;
+    color: #20202d;
 }
 
 .form-button {
     width: 100%;
 }
 
-/* contacts */
 .contacts-block {
     display: flex;
     justify-content: space-between;
@@ -319,10 +315,6 @@ background-color: #FFBB01;
     margin-bottom: 53px;
 }
 
-.contacts-social {
-    flex-basis: 100%;
-}
-
 .contacts-title {
     font-weight: bold;
     font-size: 24px;
@@ -339,6 +331,7 @@ background-color: #FFBB01;
 
 .contacts-link:hover {
     text-decoration: underline; 
+    color: #FFBB01;
 }
 
 .contacts-police {
@@ -350,6 +343,9 @@ background-color: #FFBB01;
     display: inline-block;
     margin-top: 72px;
 }
+
+
+
 
 /* media */
 @media (max-width: 1100px) {
@@ -430,10 +426,6 @@ background-color: #FFBB01;
         flex-basis: 100%;
         margin-bottom: 30px;
     }
-    .features-title {
-        font-size: 18px;
-        line-height: 28px;
-    }
     .features-text {
         font-size: 14px;
         line-height: 28px;
@@ -442,8 +434,7 @@ background-color: #FFBB01;
         font-size: 18px;
         line-height: 150%;
     }
-    .progect-time, 
-    .project-cost,
+    .progect-time,
     .project-feedback {
         flex-basis: 100%;
         margin-bottom: 30px;
