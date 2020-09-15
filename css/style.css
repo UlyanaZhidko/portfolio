@@ -742,11 +742,13 @@ blockquote p {
     height: 98px;
     overflow: hidden;
     font-size: 14px;
+    transition: 1s;
 }
 
 .text-block:hover {
-    height: auto;
+    height: 230px;
     cursor: pointer;
+    transition: 1s;
 }
 
 /* media */
@@ -1058,5 +1060,14 @@ blockquote p {
     }
     .text-block {
         font-size: 12px;
+    }
+    .block {
+        width: 288px;
+    }
+}
+
+@media (max-width: 435px) {
+    .text-block:hover {
+        height: 360px;
     }
 }
