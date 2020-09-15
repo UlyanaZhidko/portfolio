@@ -18,17 +18,6 @@ var mySwiper = new Swiper('.swiper-container', {
 });
 
 
-
-
-/* очищение инпутов */
-document.getElementById('input-name').value = "";
-document.getElementById('input-phone').value = "";
-
-
-
-
-
-
 /* Политика конфидициальности */
 const modalAdd = document.querySelector('.modal__add'),
     addAd = document.querySelector('.add__ad');
@@ -59,3 +48,5 @@ addAd.addEventListener('click', () => {
 
 /*закрытие модального окна*/
 modalAdd.addEventListener('click', closeModal);
+
+
