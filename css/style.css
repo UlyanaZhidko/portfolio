@@ -108,6 +108,10 @@ a svg:hover #telegram, a svg:hover #linkedin, a svg:hover #vk, a svg:hover #gith
     text-decoration: none;
 }
 
+.button:hover {
+    background: linear-gradient(180deg, #FFBB01 0%, #FDDE76 100%);
+}
+
 .hero-avatar {
     width: 389px;
     height: 389px;
@@ -867,6 +871,10 @@ blockquote p {
     display: none;
     position: fixed;
     z-index: 999;
+}
+
+#upbutton:hover {
+    transform: scale(1.04);
 }
 
 /* media */
