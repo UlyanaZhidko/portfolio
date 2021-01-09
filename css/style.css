@@ -51,16 +51,20 @@ body {
     display: flex;
 }
 
-a svg:hover #telegram, a svg:hover #linkedin, a svg:hover #vk, a svg:hover #github, a svg:hover #gmail, a:hover #cv {
-    fill: #FFBB01;
-}
-
 .social-link {
     margin-left: 20px;
 }
 
 .social-link:first-child {
     margin-left: 0;
+}
+
+.social-link-icon {
+    fill: #ffffff;
+}
+
+.social-link-icon:hover {
+    fill: #FFBB01;
 }
 
 .hero-content {
@@ -859,6 +863,10 @@ blockquote p {
     background: rgba(14, 13, 13, 0.7);
     display: none;
     margin-bottom: 182px;
+}
+
+.card-block-poster {
+    margin-bottom: 205px;
 }
 
 #upbutton {
