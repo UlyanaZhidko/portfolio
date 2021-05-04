@@ -144,6 +144,7 @@ body {
 
 .skills {
     background-color: rgb(0, 0, 0);
+    min-width: 105px;
 }
 
 .plus {
@@ -176,24 +177,24 @@ body {
     border-radius: inherit;
 }
 
+.bar.advanced::before {
+    width: calc(80% - 0px);
+}
+
+.bar.expert::before {
+    width: calc(76% - 0px);
+}
+
+.bar.basic::before {
+    width: calc(72% - 0px);
+}
+
 .bar.front::before {
     background-color: #FFBB01;
 }
 
 .bar.learning::before {
-    width: calc(28% - 0px);
-}
-
-.bar.basic::before {
-    width: calc(67% - 0px);
-}
-
-.bar.advanced::before {
-    width: calc(72% - 0px);
-}
-
-.bar.expert::before {
-    width: calc(78% - 0px);
+    width: calc(56% - 0px);
 }
 
 .other-skills {
