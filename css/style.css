@@ -864,6 +864,8 @@ blockquote p {
     background: rgba(14, 13, 13, 0.7);
     display: none;
     margin-bottom: 182px;
+	min-height: 250px;
+	max-height: 251px;
 }
 
 .card-block-poster {
