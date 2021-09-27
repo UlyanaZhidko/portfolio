@@ -46,6 +46,11 @@ body {
     margin-bottom: 105px;
 }
 
+.hero-header-social {
+    justify-content: space-between;
+    width: 100%;
+}
+
 .social-links {
     align-items: center;
     display: flex;
@@ -73,20 +78,13 @@ body {
     align-items: center;
 }
 
-.hero-subtitle {
-    display: block;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFBB01;
-    margin-bottom: 14px;
-}
-
 .hero-title {
     font-weight: bold;
     font-size: 50px;
     line-height: 59px;
     margin-top: 0;
     margin-bottom: 20px;
+    color: #FFBB01;
 }
 
 .hero-discription {
@@ -94,26 +92,6 @@ body {
     line-height: 28px;
     max-width: 420px;
     margin-bottom: 38px;
-}
-
-.button {
-    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
-    box-shadow: 0px 4px 0px #B68500;
-    border: none;
-    border-radius: 5px 5px 10px 10px;
-    padding: 24px 42px;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #2E2E30;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.button:hover {
-    background: linear-gradient(180deg, #FFBB01 0%, #FDDE76 100%);
 }
 
 .hero-avatar {
@@ -271,9 +249,10 @@ body {
     z-index: 5;
 }
 
-.timeline li {
+
+/*.timeline li {
     padding: 2em 0;
-}
+}*/
 
 .timeline .hexa {
     width: 16px;
@@ -436,9 +415,9 @@ body {
 }
 
 
-/* answer */
+/* work */
 
-.answer {
+.work {
     background: #000;
 }
 
@@ -457,6 +436,15 @@ blockquote {
     font-size: 18px;
     letter-spacing: .05em;
     line-height: 1.4;
+}
+
+.blockquote_text a {
+    color: #FFBB01;
+    text-decoration: none;
+}
+
+.blockquote_text a:hover {
+    text-decoration: underline;
 }
 
 
@@ -630,10 +618,6 @@ blockquote {
     color: #20202d;
 }
 
-.form-button {
-    width: 100%;
-}
-
 .contacts-block {
     display: flex;
     justify-content: space-between;
@@ -653,8 +637,7 @@ blockquote {
 }
 
 .contacts-phone,
-.contacts-mail,
-.social-links {
+.contacts-mail {
     flex-basis: 25%;
     margin-bottom: 53px;
 }
@@ -819,6 +802,7 @@ blockquote {
     font-size: 24px;
     line-height: 32px;
     color: #000;
+    min-height: 96px;
 }
 
 .card-susubtitle {
@@ -1114,10 +1098,6 @@ blockquote {
     .hero-header {
         margin-bottom: 38px;
     }
-    .hero-subtitle {
-        font-size: 16px;
-        line-height: 27px;
-    }
     .hero-title {
         font-size: 24px;
         line-height: 28px;
@@ -1134,6 +1114,18 @@ blockquote {
     .hero-title {
         font-size: 19px;
         line-height: 22px;
+    }
+    .hero-header-social {
+        flex-direction: column;
+    }
+    .hero-header-social .contacts-link {
+        margin-right: 0;
+    }
+    .hero-header-icons {
+        margin-bottom: 13px;
+    }
+    .footer-social-links {
+        margin-bottom: 30px;
     }
     .features-item {
         flex-basis: 100%;
@@ -1165,9 +1157,6 @@ blockquote {
     .form-title {
         font-size: 15px;
         line-height: 140%;
-    }
-    .form-button {
-        font-size: 10px;
     }
     .contacts-phone,
     .contacts-mail {
