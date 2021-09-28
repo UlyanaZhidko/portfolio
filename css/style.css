@@ -84,7 +84,6 @@ body {
     line-height: 59px;
     margin-top: 0;
     margin-bottom: 20px;
-    color: #FFBB01;
 }
 
 .hero-discription {
@@ -249,10 +248,9 @@ body {
     z-index: 5;
 }
 
-
-/*.timeline li {
+.timeline-li {
     padding: 2em 0;
-}*/
+}
 
 .timeline .hexa {
     width: 16px;
@@ -1106,7 +1104,7 @@ blockquote {
     .hero-discription {
         font-size: 14px;
         line-height: 140%;
-        margin-bottom: 68px;
+        margin-bottom: 0;
     }
     .section {
         padding: 60px 0;
@@ -1134,6 +1132,12 @@ blockquote {
     .features-text {
         font-size: 14px;
         line-height: 28px;
+    }
+    .flex-cont {
+        margin-bottom: 60px;
+    }
+    .blockquote_text {
+        font-size: 16px;
     }
     .project-image {
         width: 288px;
@@ -1180,7 +1184,7 @@ blockquote {
         margin-top: 10px;
     }
     blockquote p {
-        font-size: 12px;
+        font-size: 16px;
     }
     .my-cv {
         flex-basis: 100%;
