@@ -118,6 +118,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.flex-design-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    flex-wrap: wrap;
 }
 
 .skills {
@@ -180,6 +189,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.design-skils {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 
@@ -431,7 +447,7 @@ blockquote {
 
 .blockquote_text {
     margin: auto;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: .05em;
     line-height: 1.4;
 }
