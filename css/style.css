@@ -520,7 +520,6 @@ blockquote {
     padding: 20px 30px;
     position: relative;
     border-left: 10px solid #FFBB01;
-    font-family: 'Lato', sans-serif;
 }
 
 .blockquote_text {
@@ -532,7 +531,7 @@ blockquote {
 
 .blockquote_text a {
     color: #FFBB01;
-    text-decoration: none;
+    font-weight: 700;
 }
 
 .blockquote_text a:hover {
@@ -746,11 +745,15 @@ blockquote {
     text-decoration: none;
     color: inherit;
     margin-right: 37px;
+    display: flex;
+    align-items: center;
+    fill: #fff;
 }
 
 .contacts-link:hover {
     text-decoration: underline;
     color: #FFBB01;
+    fill: #FFBB01;
 }
 
 .dd {
@@ -1173,7 +1176,7 @@ blockquote {
         flex-direction: column;
     }
     .work-process-item {
-        flex-basis: 100%;
+        flex-basis: 96%;
     }
     .work-process-item-double {
         flex-direction: column;
@@ -1266,7 +1269,6 @@ blockquote {
     .contacts-link {
         font-size: 14px;
         line-height: 16px;
-        display: block;
         margin-bottom: 13px;
     }
     .project-pagination {
