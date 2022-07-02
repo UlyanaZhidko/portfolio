@@ -3,8 +3,6 @@
 
 new WOW().init();
 
-
-
 /* слайдер */
 var mySwiper = new Swiper('.swiper-container', {
     pagination: {
