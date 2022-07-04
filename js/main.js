@@ -3,11 +3,11 @@
 new WOW().init();
 
 
-/* Политика конфидициальности */
+/* ---Политика конфидициальности -----*/
 const modalAdd = document.querySelector('.modal__add'),
     addAd = document.querySelector('.add__ad');
 
-/*закрытие модального окна*/
+//закрытие модального окна
 const closeModal = (event) => {
     const target = event.target;
 
@@ -17,7 +17,7 @@ const closeModal = (event) => {
     }
 };
 
-/*закрытие модального окна нажатием ESC*/
+//закрытие модального окна нажатием ESC
 const closeModalESC = (event) => {
     if (event.code === 'Escape') {
         modalAdd.classList.add('hide');
@@ -25,18 +25,18 @@ const closeModalESC = (event) => {
     };
 }
 
-/*открытие модального окна */
+//открытие модального окна
 addAd.addEventListener('click', () => {
     modalAdd.classList.remove('hide');
     document.addEventListener('keydown', closeModalESC);
 });
 
-/*закрытие модального окна*/
+//закрытие модального окна
 modalAdd.addEventListener('click', closeModal);
 
 
 
-/*стрелка вверх*/
+/*---стрелка вверх-----*/
 $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
         if ($('#upbutton').is(':hidden')) {
@@ -49,8 +49,8 @@ $('#upbutton').click(function() {
 });
 
 
-/*фильтр проектов */
 
+/*------фильтр проектов ---------*/
 filterSelection("all")
 
 function filterSelection(c) {
@@ -99,3 +99,32 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
+
+
+/* Меню */
+function burgerMenu(selector) {
+    let menu = $(selector);
+    let button = menu.find('.burger-menu_button', '.burger-menu_lines');
+    let links = menu.find('.burger-menu_link');
+    let overlay = menu.find('.burger-menu_overlay');
+
+    button.on('click', (e) => {
+        e.preventDefault();
+        toggleMenu();
+    });
+
+    links.on('click', () => toggleMenu());
+    overlay.on('click', () => toggleMenu());
+
+    function toggleMenu() {
+        menu.toggleClass('burger-menu_active');
+
+        if (menu.hasClass('burger-menu_active')) {
+            $('body').css('overlow', 'hidden');
+        } else {
+            $('body').css('overlow', 'visible');
+        }
+    }
+}
+
+burgerMenu('.burger-menu');
