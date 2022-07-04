@@ -403,6 +403,11 @@ blockquote {
 .block-link {
     text-decoration: none;
     color: white;
+    padding: 100px;
+}
+
+.card-block-img {
+    width: 60px;
 }
 
 
