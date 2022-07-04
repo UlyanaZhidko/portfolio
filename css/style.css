@@ -105,6 +105,11 @@ body {
     border: 5px solid #FFBB01;
 }
 
+.edu-name {
+    color: #FFBB01;
+    margin-top: 0;
+}
+
 
 /* skills */
 
@@ -315,7 +320,7 @@ body {
 blockquote {
     margin: 0;
     background: #F0F0F1;
-    color: #333334;
+    color: #000;
     padding: 20px 30px;
     position: relative;
     border-left: 10px solid #FFBB01;
