@@ -385,42 +385,6 @@ blockquote {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 17.44%);
 }
 
-.projects-slide {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.swiper-slide-next {
-    opacity: 0;
-}
-
-.project-text {
-    flex-basis: 60%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.project-title {
-    flex-basis: 100%;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0;
-    margin-bottom: 41px;
-}
-
-.progect-time {
-    flex-basis: 50%;
-    margin-bottom: 44px;
-}
-
-.progect-time,
-.project-feedback {
-    display: flex;
-    align-items: flex-start;
-}
-
 .project-subtitle {
     margin: 0;
     font-size: 18px;
@@ -434,64 +398,6 @@ blockquote {
     font-size: 16px;
     line-height: 19px;
     max-width: 481px;
-}
-
-.project-icon {
-    margin-right: 16px;
-}
-
-.project-bullet {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: 2px solid #FFBB01;
-    border-radius: 50%;
-    margin-left: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.project-bullet-active {
-    background-color: #FFBB01;
-}
-
-.project-pagination {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 44px;
-}
-
-.project-image {
-    width: 338px;
-    height: 268px;
-    border-radius: 6px;
-    object-fit: cover;
-}
-
-.project-block {
-    position: relative;
-    width: 338px;
-    height: 268px;
-    background: transparent;
-}
-
-.block {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    background: rgba(14, 13, 13, 0.7);
-    padding: 5px;
-    display: none;
-}
-
-.project-block:hover .block {
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .block-link {
@@ -877,12 +783,6 @@ blockquote {
         order: 1;
         text-align: center;
     }
-    .projects-slide {
-        flex-direction: column;
-    }
-    .project-image {
-        margin-bottom: 46px;
-    }
     .contacts-block {
         flex-direction: column;
         align-items: flex-start;
@@ -991,18 +891,6 @@ blockquote {
     .footer-social-links {
         margin-bottom: 30px;
     }
-    .project-image {
-        width: 288px;
-    }
-    .project-title {
-        font-size: 18px;
-        line-height: 150%;
-    }
-    .progect-time,
-    .project-feedback {
-        flex-basis: 100%;
-        margin-bottom: 30px;
-    }
     .project-paragraph {
         max-width: 210px;
         font-size: 14px;
@@ -1030,9 +918,6 @@ blockquote {
         font-size: 14px;
         line-height: 16px;
         margin-bottom: 13px;
-    }
-    .project-pagination {
-        margin-top: 10px;
     }
     blockquote p {
         font-size: 16px;
@@ -1073,9 +958,6 @@ blockquote {
     }
     .modal__block {
         font-size: 12px;
-    }
-    .block {
-        width: 288px;
     }
     .text-block:hover {
         height: 190px;
