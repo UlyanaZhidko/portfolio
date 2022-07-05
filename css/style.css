@@ -168,24 +168,24 @@ body {
     border-radius: inherit;
 }
 
-.bar.advanced::before {
+.bar.skill-1::before {
+    width: calc(73% - 0px);
+}
+
+.bar.skill-2::before {
+    width: calc(53% - 0px);
+}
+
+.bar.skill-3::before {
     width: calc(80% - 0px);
 }
 
-.bar.expert::before {
-    width: calc(76% - 0px);
-}
-
-.bar.basic::before {
-    width: calc(72% - 0px);
+.bar.skill-4::before {
+    width: calc(60% - 0px);
 }
 
 .bar.front::before {
     background-color: #FFBB01;
-}
-
-.bar.learning::before {
-    width: calc(56% - 0px);
 }
 
 .other-skills {
