@@ -9,7 +9,7 @@ img {
 body {
     background-color: #20202d;
     margin: 0;
-    color: white;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -36,7 +36,7 @@ body {
 .hero {
     padding-top: 50px;
     padding-bottom: 155px;
-    background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+    background: linear-gradient(0.01deg, #000 0.01%, rgba(0, 0, 0, 0) 95.44%);
 }
 
 .hero-header {
@@ -65,7 +65,7 @@ body {
 }
 
 .social-link-icon {
-    fill: #ffffff;
+    fill: #fff;
 }
 
 .social-link-icon:hover {
@@ -195,13 +195,6 @@ body {
     align-items: center;
 }
 
-.design-skils {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
 
 /* work-process*/
 
@@ -217,7 +210,7 @@ body {
 
 .work-process-item-title {
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: #fff;
     margin: 0 auto 5px;
 }
 
@@ -362,7 +355,7 @@ blockquote {
     outline: none;
     padding: 12px 16px;
     cursor: pointer;
-    color: white;
+    color: #fff;
     background-color: transparent;
     min-width: 120px;
     margin-right: 20px;
@@ -375,14 +368,14 @@ blockquote {
 
 .filter-btn.active {
     background-color: transparent;
-    color: white;
+    color: #fff;
     border: 2px solid #FFBB01;
     border-radius: 25px;
     min-width: 120px;
 }
 
 .projects {
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 17.44%);
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 17.44%);
 }
 
 .project-subtitle {
@@ -402,7 +395,7 @@ blockquote {
 
 .block-link {
     text-decoration: none;
-    color: white;
+    color: #fff;
     padding: 100px;
 }
 
@@ -414,7 +407,7 @@ blockquote {
 /* contacts */
 
 .contacts-form {
-    background: #FFFFFF;
+    background: #fff;
     box-shadow: -5px 5px 0px #FFC41D;
     border-radius: 5px;
     max-width: 380px;
@@ -425,39 +418,10 @@ blockquote {
     font-weight: bold;
     font-size: 18px;
     line-height: 28px;
-    color: #000000;
+    color: #000;
     text-align: center;
     margin: 0;
     margin-bottom: 29px;
-}
-
-.input {
-    background: #F8F8F8;
-    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
-    border-radius: 5px;
-    padding: 18px 20px;
-    padding-left: 50px;
-    width: 100%;
-    border: none;
-    font-size: 14px;
-    line-height: 28px;
-    color: #949494;
-}
-
-.input-name {
-    margin-bottom: 17px;
-    background-image: url(../img/contacts/user-icon.svg);
-    background-repeat: no-repeat;
-    background-position: center left 20px;
-    color: #20202d;
-}
-
-.input-phone {
-    margin-bottom: 17px;
-    background-image: url(../img/contacts/phone-icon.svg);
-    background-repeat: no-repeat;
-    background-position: center left 20px;
-    color: #20202d;
 }
 
 .contacts-block {
@@ -576,7 +540,7 @@ blockquote {
     border-color: transparent;
     font-size: 24px;
     line-height: 24px;
-    color: white;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -607,7 +571,7 @@ blockquote {
 }
 
 .card {
-    background: #FFFFFF;
+    background: #fff;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     overflow: hidden;
@@ -684,7 +648,7 @@ blockquote {
 .card-project-block {
     position: relative;
     height: auto;
-    background: white;
+    background: #fff;
     border-radius: 7px;
 }
 
@@ -824,7 +788,7 @@ blockquote {
         height: 250px;
     }
     .card {
-        background: #FFFFFF;
+        background: #fff;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
         border-radius: 7px;
         overflow: hidden;
