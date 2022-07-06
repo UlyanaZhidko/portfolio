@@ -88,9 +88,13 @@ body {
 
 .hero-discription {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 22px;
     max-width: 420px;
     margin-bottom: 38px;
+}
+
+.hero-text span {
+    color: #FFBB01;
 }
 
 .hero-avatar {
@@ -103,11 +107,6 @@ body {
     background-position: center top -35px;
     background-size: cover;
     border: 5px solid #FFBB01;
-}
-
-.edu-name {
-    color: #FFBB01;
-    margin-top: 0;
 }
 
 
