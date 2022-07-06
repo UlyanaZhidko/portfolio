@@ -128,3 +128,16 @@ function burgerMenu(selector) {
 }
 
 burgerMenu('.burger-menu');
+
+/* Смена языка */
+$('.en').on('click', function() {
+    $('[data-en]').each(function() {
+        $(this).text($(this).attr('data-en'));
+    });
+});
+
+$('.ru').on('click', function() {
+    $('[data-ru]').each(function() {
+        $(this).text($(this).attr('data-ru'));
+    });
+});

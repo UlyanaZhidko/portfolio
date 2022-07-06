@@ -62,6 +62,7 @@
     display: flex;
     flex-flow: column;
     height: 100%;
+    width: 230px;
     background-color: #FFBB01;
     right: -100%;
     -webkit-transition: 0.8s;
@@ -79,7 +80,7 @@
 }
 
 .burger-menu_link {
-    padding: 15px 35px;
+    padding: 15px 25px;
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
@@ -108,4 +109,16 @@
 .burger-menu_active .burger-menu_overlay {
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lang {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lang button {
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    padding: 7px;
 }

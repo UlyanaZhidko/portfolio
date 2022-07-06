@@ -89,8 +89,8 @@ body {
 .hero-discription {
     font-size: 16px;
     line-height: 22px;
-    max-width: 420px;
-    margin-bottom: 38px;
+    max-width: 389px;
+    margin: 10px 0;
 }
 
 .hero-text span {
@@ -109,6 +109,10 @@ body {
     border: 5px solid #FFBB01;
 }
 
+.edu {
+    margin-top: 30px;
+}
+
 
 /* skills */
 
@@ -124,17 +128,49 @@ body {
     align-items: center;
 }
 
-.flex-design-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 100%;
-    flex-wrap: wrap;
-}
-
 .skills {
     background-color: rgb(0, 0, 0);
     min-width: 140px;
+}
+
+.skills-project {
+    width: 100%;
+    margin: 0 30px;
+}
+
+.skill-bar {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #FFBB01;
+}
+
+.bar {
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    border: 1px solid #FFBB01;
+    padding: 5px 0 5px 10px;
+}
+
+.skill-1 {
+    width: 73%;
+    background-color: #FFBB01;
+}
+
+.skill-2 {
+    width: 53%;
+    background-color: #FFBB01;
+}
+
+.skill-3 {
+    width: 80%;
+    background-color: #FFBB01;
+}
+
+.skill-4 {
+    width: 60%;
+    background-color: #FFBB01;
 }
 
 .plus {
@@ -142,49 +178,6 @@ body {
     color: #FFBB01;
     font-size: 70px;
     font-weight: 700;
-}
-
-.skill-bar {
-    width: 100%;
-    margin: 0 30px;
-}
-
-.bar {
-    background-color: #000;
-    padding: 0;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    border: 1px solid #FFBB01;
-}
-
-.bar::before {
-    content: attr(data-skill);
-    display: inline-block;
-    padding: 5px 0 5px 10px;
-    border-radius: inherit;
-}
-
-.bar.skill-1::before {
-    width: calc(73% - 0px);
-}
-
-.bar.skill-2::before {
-    width: calc(53% - 0px);
-}
-
-.bar.skill-3::before {
-    width: calc(80% - 0px);
-}
-
-.bar.skill-4::before {
-    width: calc(60% - 0px);
-}
-
-.bar.front::before {
-    background-color: #FFBB01;
 }
 
 .other-skills {
@@ -903,8 +896,8 @@ blockquote {
     .skills {
         font-size: 14px;
     }
-    .skill-bar {
-        margin: 0px 15px;
+    .skills-project {
+        margin: 0;
     }
     .plus p {
         margin: 0;
