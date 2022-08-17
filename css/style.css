@@ -115,6 +115,7 @@ body {
 
 .relocation {
     display: flex;
+    justify-content: center;
 }
 
 .relocation-icon {
@@ -961,6 +962,12 @@ blockquote {
     }
     .card {
         flex-basis: 62%;
+    }
+    .relocate-item {
+        margin: 0 auto;
+    }
+    .relocation-icon {
+        margin-right: 6px;
     }
 }
 
