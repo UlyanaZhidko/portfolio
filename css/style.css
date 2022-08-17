@@ -113,6 +113,20 @@ body {
     margin-top: 30px;
 }
 
+.relocation {
+    display: flex;
+}
+
+.relocation-icon {
+    margin-right: 10px;
+}
+
+.relocate-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 0 0;
+}
+
 
 /* skills */
 
