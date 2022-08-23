@@ -28,6 +28,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .burger-menu_lines::before {
@@ -47,11 +51,19 @@
 .burger-menu_active .burger-menu_lines::before {
     top: 0;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 
 .burger-menu_active .burger-menu_lines::after {
     top: 0;
     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
 }
 
 .burger-menu_nav {
@@ -94,6 +106,7 @@
 
 .burger-menu_link:hover {
     filter: brightness(0.9);
+    -webkit-filter: brightness(0.9);
 }
 
 .burger-menu_overlay {
