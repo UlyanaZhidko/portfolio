@@ -26,11 +26,10 @@ body {
 }
 
 .section-title {
-    margin: 0;
+    margin: 0 0 84px 0;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-    margin-bottom: 84px;
 }
 
 .hero {
@@ -386,10 +385,9 @@ blockquote {
 }
 
 .project-subtitle {
-    margin: 0;
+    margin: 0 0 7px 0;
     font-size: 18px;
     line-height: 21px;
-    margin-bottom: 7px;
 }
 
 .project-paragraph {
@@ -427,8 +425,7 @@ blockquote {
     line-height: 28px;
     color: #000;
     text-align: center;
-    margin: 0;
-    margin-bottom: 29px;
+    margin: 0 0 29px 0;
 }
 
 .contacts-block {
@@ -459,8 +456,7 @@ blockquote {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    margin: 0;
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
 }
 
 .contacts-link {
@@ -543,7 +539,7 @@ blockquote {
     position: absolute;
     top: 24px;
     right: 24px;
-    background-color: transparent;
+    background: transparent;
     border-color: transparent;
     font-size: 24px;
     line-height: 24px;
@@ -645,9 +641,7 @@ blockquote {
 
 .card-project-image {
     height: 250px;
-    border-radius: 7px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 7px 7px 0 0;
     object-fit: cover;
     width: 100%;
 }
@@ -660,9 +654,7 @@ blockquote {
 }
 
 .card-project-block:hover .card-block {
-    border-radius: 7px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 7px 7px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;

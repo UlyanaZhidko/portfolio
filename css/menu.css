@@ -17,7 +17,7 @@
     position: absolute;
     width: 30px;
     height: 3px;
-    background-color: #ffffff;
+    background: #ffffff;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
@@ -45,7 +45,7 @@
 }
 
 .burger-menu_active .burger-menu_lines {
-    background-color: transparent;
+    background: transparent;
 }
 
 .burger-menu_active .burger-menu_lines::before {
@@ -75,7 +75,7 @@
     flex-flow: column;
     height: 100%;
     width: 230px;
-    background-color: #FFBB01;
+    background: #FFBB01;
     right: -100%;
     -webkit-transition: 0.8s;
     -moz-transition: 0.8s;
@@ -121,7 +121,7 @@
 
 .burger-menu_active .burger-menu_overlay {
     display: block;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .lang {
