@@ -398,10 +398,22 @@ blockquote {
     max-width: 481px;
 }
 
+.link-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
 .block-link {
     text-decoration: none;
     color: #fff;
     padding: 100px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.block-link-double {
+    padding: 30px;
 }
 
 .card-block-img {
