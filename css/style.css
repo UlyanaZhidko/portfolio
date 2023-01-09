@@ -168,22 +168,22 @@ body {
 }
 
 .skill-1 {
-    width: 73%;
+    width: 87%;
     background-color: #FFBB01;
 }
 
 .skill-2 {
-    width: 53%;
+    width: 67%;
     background-color: #FFBB01;
 }
 
 .skill-3 {
-    width: 80%;
+    width: 90%;
     background-color: #FFBB01;
 }
 
 .skill-4 {
-    width: 60%;
+    width: 81%;
     background-color: #FFBB01;
 }
 
@@ -314,6 +314,10 @@ body {
 
 .work {
     background: #000;
+}
+
+.work_experience {
+    margin-bottom: 30px;
 }
 
 blockquote {
