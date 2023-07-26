@@ -141,3 +141,21 @@ $('.ru').on('click', function() {
         $(this).text($(this).attr('data-ru'));
     });
 });
+
+
+
+
+//дата времени работы
+
+var today = new Date();
+var startWork = new Date(2022, 9, 30); //установить дату начала работы
+var timestamp = (today.getTime() - startWork.getTime());
+const date = new Date(timestamp);
+var years = date.getYear() - 70;
+var months = date.getMonth() + 1;
+
+if (years > 0) {
+    document.querySelector('span.work_date').innerHTML = "(" + years + " год " + months + " мес.)";
+} else {
+    document.querySelector('span.work_date').innerHTML = "(" + months + " мес.)";
+}
