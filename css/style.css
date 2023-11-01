@@ -255,7 +255,6 @@ body {
     position: absolute;
     width: 30px;
     height: 30px;
-    text-align: center;
     border-radius: 40px;
     background: #000;
     color: #FFBB01;
@@ -264,6 +263,9 @@ body {
     top: calc(50% - 18px);
     line-height: 28px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .work-process-item:first-child:before {
@@ -411,7 +413,7 @@ blockquote {
     text-decoration: none;
     color: #fff;
     padding: 100px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
 }
@@ -592,13 +594,17 @@ blockquote {
 .card {
     background: #fff;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
-    border-radius: 7px;
     overflow: hidden;
     margin-bottom: 30px;
-    flex-basis: 31%;
+    flex-basis: 23%;
     text-decoration: none;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 .card:hover {
@@ -613,25 +619,7 @@ blockquote {
 }
 
 .card-text {
-    padding-top: 20px;
-    padding-bottom: 35px;
-    padding-left: 23px;
-    padding-right: 20px;
-}
-
-.card-heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.card-title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    color: #000;
-    min-height: 96px;
+    padding: 15px;
 }
 
 .card-susubtitle {
@@ -656,24 +644,33 @@ blockquote {
 }
 
 .card-project-image {
-    height: 250px;
-    border-radius: 7px 7px 0 0;
+    height: 150px;
     object-fit: cover;
     width: 100%;
+    border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    -ms-border-radius: 8px 8px 0 0;
+    -o-border-radius: 8px 8px 0 0;
 }
 
 .card-project-block {
     position: relative;
     height: auto;
     background: #fff;
-    border-radius: 7px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 .card-project-block:hover .card-block {
-    border-radius: 7px 7px 0 0;
+    border-radius: 8px 8px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 150px;
 }
 
 .card-block {
@@ -684,9 +681,6 @@ blockquote {
     top: 0;
     background: rgba(14, 13, 13, 0.7);
     display: none;
-    margin-bottom: 182px;
-    min-height: 250px;
-    max-height: 251px;
 }
 
 .card-block-poster {
@@ -694,7 +688,7 @@ blockquote {
 }
 
 #upbutton {
-    background: url("../img/arrow.svg") no-repeat top left;
+    background: url("../img/top-arrow.svg") no-repeat top left;
     height: 60px;
     width: 60px;
     bottom: 30px;
@@ -707,6 +701,10 @@ blockquote {
 
 #upbutton:hover {
     transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
 }
 
 
@@ -727,14 +725,12 @@ blockquote {
         flex-basis: 100%;
         flex-wrap: wrap;
     }
-
     .first-skills {
         display: flex;
         width: 50%;
         align-items: baseline;
         flex-basis: 50%;
     }
-
     .plus {
         display: flex;
         color: #FFBB01;
@@ -742,7 +738,6 @@ blockquote {
         font-weight: 700;
         flex-wrap: wrap;
     }
-
     .other-skills {
         width: 290px;
         display: flex;
@@ -759,44 +754,35 @@ blockquote {
         align-items: center;
         flex-direction: column;
     }
-
     .hero-header {
         margin-bottom: 10px;
     }
-
     .hero-avatar {
         order: 0;
         margin-bottom: 17px;
     }
-
     .hero-text {
         order: 1;
         text-align: center;
     }
-
     .contacts-block {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .contacts-form {
         margin-bottom: 58px;
     }
-
     .flex-cont {
         justify-content: center;
         flex-basis: 100%;
         flex-wrap: wrap;
     }
-
     .first-skills {
         flex-basis: 100%;
     }
-
     .plus {
         flex-wrap: wrap;
     }
-
     .other-skills {
         flex-wrap: wrap;
         margin-left: 40px;
@@ -807,16 +793,13 @@ blockquote {
     .card-title {
         min-height: 0px;
     }
-
     .section-title {
         font-size: 25px;
         margin-bottom: 20px;
     }
-
     .text-block:hover {
         height: 250px;
     }
-
     .card {
         background: #fff;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
@@ -827,32 +810,30 @@ blockquote {
         text-decoration: none;
         display: flex;
         flex-direction: column;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
     }
-
     .work-process-item {
         flex-basis: 96%;
     }
-
     .work-process-item-double {
         flex-direction: column;
     }
-
     .work-process-item:not(:last-child):after {
         top: calc(50% - -49.5%);
         transform: rotate(90deg);
         right: calc(50% - 18px);
     }
-
     .filter-btn {
         margin-right: 0px;
         font-size: 14px;
         min-width: 90px;
     }
-
     .filter-btn.active {
         min-width: 90px;
     }
-
     .blockquote_ul {
         padding-left: 0px;
     }
@@ -862,123 +843,97 @@ blockquote {
     .hero {
         padding-bottom: 50px;
     }
-
     .hero-avatar {
         width: 113px;
         height: 113px;
         border: 3px solid #FFBB01;
         background-position: center top -9px;
     }
-
     .hero-header {
         margin-bottom: 38px;
     }
-
     .hero-title {
         font-size: 25px;
         line-height: 28px;
         margin-bottom: 4px;
     }
-
     .hero-discription {
         font-size: 14px;
         line-height: 140%;
         margin-bottom: 0;
     }
-
     .section {
         padding: 40px 0;
     }
-
     .hero-header-social {
         flex-direction: column;
     }
-
     .hero-header-social .contacts-link {
         margin-right: 0;
     }
-
     .hero-header-icons {
         margin-bottom: 13px;
     }
-
     .footer-social-links {
         margin-bottom: 30px;
     }
-
     .project-paragraph {
         max-width: 210px;
         font-size: 14px;
     }
-
     .contacts-form {
         padding: 40px 19px;
     }
-
     .form-title {
         font-size: 15px;
         line-height: 140%;
     }
-
     .contacts-phone,
     .contacts-mail {
         flex-basis: 100%;
         margin-bottom: 30px;
     }
-
     .contacts-title {
         font-size: 18px;
         line-height: 21px;
     }
-
     .contacts-data {
         margin-bottom: 0;
     }
-
     .contacts-link {
         font-size: 14px;
         line-height: 16px;
         margin-bottom: 13px;
     }
-
     blockquote p {
         font-size: 16px;
     }
-
     .my-cv {
         flex-basis: 100%;
         margin-top: 20px;
     }
-
     .contacts-police {
         margin-top: 50px;
     }
-
     .bar {
         font-size: 10px;
     }
-
     .skills {
         font-size: 14px;
     }
-
     .skills-project {
         margin: 0;
     }
-
     .plus p {
         margin: 0;
     }
-
     .other-skills {
         margin-left: 0;
         justify-content: space-around;
     }
-
     .back {
         justify-content: start;
     }
-
     .modal__block {
         background-color: #20202d;
         padding: 60px 30px 30px;
@@ -987,20 +942,16 @@ blockquote {
         position: relative;
         font-size: 12px;
     }
-
     .modal__block {
         font-size: 12px;
     }
-
     .text-block:hover {
         height: 190px;
     }
-
     .card {
         flex-basis: 58%;
         margin-left: 25%;
     }
-
     .card:hover {
         transform: none;
     }
@@ -1010,7 +961,6 @@ blockquote {
     .text-block:hover {
         height: 220px;
     }
-
     .card {
         flex-basis: 58%;
     }
@@ -1020,15 +970,12 @@ blockquote {
     .text-block:hover {
         height: 250px;
     }
-
     .card {
         flex-basis: 62%;
     }
-
     .relocate-item {
         margin: 0 auto;
     }
-
     .relocation-icon {
         margin-right: 6px;
     }
@@ -1038,12 +985,10 @@ blockquote {
     .text-block:hover {
         height: 290px;
     }
-
     .card {
         flex-basis: 100%;
         margin-left: 0;
     }
-
     .card-project-block {
         width: auto;
     }

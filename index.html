@@ -20,36 +20,33 @@
 
     <header class="hero" id="about">
         <div class="container">
-
             <div class="burger-menu">
                 <a href="" class="burger-menu_button">
                     <span class="burger-menu_lines"></span>
                 </a>
 
                 <nav class="burger-menu_nav">
-                    <a href="#about" class="burger-menu_link" data-en="About" data-ru="Обо мне">Обо мне</a>
-                    <a href="#skills" class="burger-menu_link" data-en="Skills" data-ru="Навыки">Навыки</a>
-                    <a href="#work" class="burger-menu_link" data-en="Work experience" data-ru="Опыт работы">Опыт
-                        работы</a>
-                    <a href="#process" class="burger-menu_link" data-en="Development stages"
-                        data-ru="Этапы разработки">Этапы разработки</a>
-                    <a href="#projects" class="burger-menu_link" data-en="Projects" data-ru="Проекты">Проекты</a>
-                    <a href="#contacts" class="burger-menu_link" data-en="Contacts" data-ru="Контакты">Контакты</a>
+
+                    <a href="#about" class="burger-menu_link">Обо мне</a>
+                    <a href="#skills" class="burger-menu_link">Навыки</a>
+                    <a href="#work" class="burger-menu_link">Опыт работы</a>
+                    <a href="#process" class="burger-menu_link">Этапы разработки</a>
+                    <a href="#projects" class="burger-menu_link">Проекты</a>
+                    <a href="#contacts" class="burger-menu_link">Контакты</a>
 
 
                     <div class="lang">
-                        <button class="ru">RU</button>
-                        <button class="en">EN</button>
+                        <div class="lang_wrap">
+                            <button class="lang_button">EN</button>
+                        </div>
                     </div>
                 </nav>
 
                 <div class="burger-menu_overlay"></div>
             </div>
 
-
             <div class="hero-header">
-                <div class="social-links hero-header-social wow animate__animated animate__fadeInDown"
-                    data-wow-delay="0.2s">
+                <div class="social-links hero-header-social wow animate__animated animate__fadeInDown" data-wow-delay="0.2s">
                     <div class="hero-header-phone">
                         <a class="contacts-link" href="tel:+998337167805">+998 33 716-78-05</a>
                     </div>
@@ -72,6 +69,12 @@
                                 <use xlink:href="img/icons.svg#linkedin"></use>
                             </svg>
                         </a>
+
+                        <a href="https://www.behance.net/ulyanaZhidko" class="social-link" target="_blank">
+                            <svg width="22" height="22" class="social-link-icon">
+                                <use xlink:href="img/icons.svg#behance"></use>
+                            </svg>
+                        </a>
                     </div>
 
                     <div class="hero-header-mail">
@@ -85,63 +88,48 @@
                 <div class="hero-avatar wow animate__animated animate__fadeIn" data-wow-delay="1s"></div>
 
                 <div class="hero-text">
-                    <h1 class="hero-title wow animate__animated animate__fadeInRight" data-wow-delay="0.4s"
-                        data-en="Ulyana Zhidko" data-ru="Ульяна Жидко">Ульяна Жидко</h1>
+                    <h1 class="hero-title wow animate__animated animate__fadeInRight" data-wow-delay="0.4s">
+                        Ульяна Жидко
+                    </h1>
 
                     <div class="hero-about wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
-
-                        <span data-en="Digital Designer, Frontend developer"
-                            data-ru="Digital-дизайнер, Frontend-разработчик">
-                            Digital-дизайнер, Frontend-разработчик
-                        </span>
+                        <span>Digital-дизайнер</span>
                         <div class="relocation">
                             <div class="relocate-item ">
                                 <svg width="22" height="22" class="relocation-icon">
                                     <use xlink:href="img/icons.svg#home"></use>
                                 </svg>
-                                <p class="hero-discription" data-en="Belarus, Minsk" data-ru="Беларусь, Минск">
-                                    Беларусь, Минск
-                                </p>
+                                <p class="hero-discription">Беларусь, Минск</p>
                             </div>
 
                             <div class="relocate-item">
                                 <svg width="22" height="22" class="relocation-icon">
                                     <use xlink:href="img/icons.svg#location"></use>
                                 </svg>
-                                <p class="hero-discription" data-en="Uzbekistan, Tashkent"
-                                    data-ru="Узбекистан, Ташкент">
-                                    Узбекистан, Ташкент
-                                </p>
+                                <p class="hero-discription">Узбекистан, Ташкент</p>
                             </div>
 
                         </div>
-                        <p class="hero-discription"
-                            data-en="Open to interesting projects and new opportunities around the world, I always try to be useful. I will be glad to cooperate!"
-                            data-ru="Открыта для интересных проектов и новых возможностей по всему миру, всегда стараюсь принести пользу. Буду рада сотрудничеству!">
-                            Открыта для интересных проектов и новых возможностей по всему миру, всегда стараюсь принести
-                            пользу. Буду рада сотрудничеству!
+                        <p class="hero-discription">
+                            Открыта для интересных проектов и новых возможностей по всему миру, всегда стараюсь принести пользу. Буду рада сотрудничеству!
                         </p>
                     </div>
 
                     <div class="edu wow animate__animated animate__fadeInRight" data-wow-delay="0.8s">
-                        <span class="edu-name" data-en="Education" data-ru="Образование">Образование</span>
+                        <span class="edu-name">Образование</span>
                         <p class="edu-text hero-discription">2017 – 2022</p>
-                        <p class="edu-text hero-discription" data-en="BSU, communication design"
-                            data-ru="БГУ, коммуникативный дизайн">БГУ, коммуникативный дизайн</p>
+                        <p class="edu-text hero-discription">БГУ, коммуникативный дизайн</p>
                     </div>
-
                 </div>
 
             </div>
-
         </div>
     </header>
 
     <main>
         <section class="section skills" id="skills">
             <div class="container">
-                <h2 class="section-title wow animate__animated animate__fadeInLeft" data-en="Use in projects"
-                    data-ru="Использую в проектах">Использую в проектах</h2>
+                <h2 class="section-title wow animate__animated animate__fadeInLeft">Использую в проектах</h2>
 
                 <div class="flex-cont">
                     <div class="first-skills wow animate__animated animate__zoomIn" data-wow-delay="1.2s">
@@ -154,16 +142,16 @@
 
                         <div class="skills-project">
                             <div class="skill-bar">
-                                <div class="bar skill-3" data-en="36 projects" data-ru="36 проектов">36 проектов</div>
+                                <div class="bar skill-3">36 проектов</div>
                             </div>
                             <div class="skill-bar">
-                                <div class="bar skill-4" data-en="28 projects" data-ru="28 проектов">28 проектов</div>
+                                <div class="bar skill-4">28 проектов</div>
                             </div>
                             <div class="skill-bar">
-                                <div class="bar skill-1" data-en="33 projects" data-ru="33 проекта">33 проекта</div>
+                                <div class="bar skill-1">33 проекта</div>
                             </div>
                             <div class="skill-bar">
-                                <div class="bar skill-2" data-en="15 projects" data-ru="15 проектов">15 проектов</div>
+                                <div class="bar skill-2">15 проектов</div>
                             </div>
                         </div>
                     </div>
@@ -193,8 +181,7 @@
 
         <section class="section work" id="work">
             <div class="container">
-                <h2 class="section-title wow animate__animated animate__fadeInLeft" data-en="Work experience"
-                    data-ru="Опыт работы">
+                <h2 class="section-title wow animate__animated animate__fadeInLeft">
                     Опыт работы
                 </h2>
                 <div class="work_experience wow animate__animated animate__zoomIn" data-wow-delay="0.3s">
@@ -206,27 +193,15 @@
                             <p>
                                 <a href="https://humans.uz/" target="_blank">Humans</a>
                             </p>
-                            <span data-en="Oct. 2021 - till now (10 months)"
-                                data-ru="окт. 2022&nbsp;г. – наст. время (10 мес.)">окт. 2022&nbsp;г. – наст. время
+                            <span>окт. 2022&nbsp;г. – наст. время
                                 <span class="work_date"></span>
                             </span>
 
                             <ul class="blockquote_ul">
-                                <li data-en="Website development from scratch;" data-ru="Разработка веб-сайтов с нуля;">
-                                    Дизайн веб страниц сайтов Humans;
-                                </li>
-                                <li data-en="Editing existing site pages;"
-                                    data-ru="Правка существующих страниц сайтов;">
-                                    Правка существующих страниц сайтов;
-                                </li>
-                                <li data-en="Editing existing site pages;"
-                                    data-ru="Правка существующих страниц сайтов;">
-                                    Дизайн постов для социальных сетей;
-                                </li>
-                                <li data-en="Work with the content management system MODx (Evo) and WordPress;"
-                                    data-ru="Работа с системой управления сайтом MODx (Evo) и WordPress;">
-                                    Дизайн рекламных материалов для цифровой и наружной рекламы.
-                                </li>
+                                <li>Дизайн веб страниц сайтов Humans;</li>
+                                <li>Правка существующих страниц сайтов;</li>
+                                <li>Дизайн постов для социальных сетей;</li>
+                                <li>Дизайн рекламных материалов для цифровой и наружной рекламы.</li>
                             </ul>
                         </div>
 
@@ -241,38 +216,16 @@
                             <p>
                                 <a href="https://webmart.by/" target="_blank">Webmart Group</a>
                             </p>
-                            <span data-en="Feb. 2021 - Dec. 2021 (11 months)" data-ru="2021(1год)">2021 г. – 2022 г.
-                                (1год)</span>
+                            <span>2021 г. – 2022 г.(1год)</span>
 
                             <ul class="blockquote_ul">
-                                <li data-en="Website development from scratch;" data-ru="Разработка веб-сайтов с нуля;">
-                                    Разработка веб-сайтов с нуля;
-                                </li>
-                                <li data-en="Layout according to layouts (figma);"
-                                    data-ru="Верстка по макетам (figma);">
-                                    Верстка по макетам (figma);
-                                </li>
-                                <li data-en="Editing existing site pages;"
-                                    data-ru="Правка существующих страниц сайтов;">
-                                    Правка существующих страниц сайтов;
-                                </li>
-                                <li data-en="Work with the content management system MODx (Evo) and WordPress;"
-                                    data-ru="Работа с системой управления сайтом MODx (Evo) и WordPress;">
-                                    Работа с системой управления сайтом MODx (Evo) и WordPress;
-                                </li>
-                                <li data-en="Designing user interfaces;"
-                                    data-ru="Проектирование пользовательских интерфейсов;">
-                                    Проектирование пользовательских интерфейсов;
-                                </li>
-                                <li data-en="Development of visual materials;"
-                                    data-ru="Разработка визуальных материалов;">
-                                    Разработка визуальных материалов;
-                                </li>
-                                <li data-en="Responsive, cross-browser layout using Bootstrap, Materialize, jQuery and without."
-                                    data-ru="Адаптивная, кроссбраузерная верстка с использованием Bootstrap, Materialize, jQuery и без.">
-                                    Адаптивная, кроссбраузерная верстка с использованием Bootstrap, Materialize, jQuery
-                                    и без.
-                                </li>
+                                <li>Разработка веб-сайтов с нуля;</li>
+                                <li>Верстка по макетам (figma);</li>
+                                <li>Правка существующих страниц сайтов;</li>
+                                <li>Работа с системой управления сайтом MODx (Evo) и WordPress;</li>
+                                <li>Проектирование пользовательских интерфейсов;</li>
+                                <li>Разработка визуальных материалов;</li>
+                                <li>Адаптивная, кроссбраузерная верстка с использованием Bootstrap, Materialize, jQuery и без.</li>
                             </ul>
                         </div>
 
@@ -283,100 +236,57 @@
 
         <section class="section work-process" id="process">
             <div class="container">
-                <h2 class="section-title wow animate__animated animate__fadeInLeft" data-en="Development stages"
-                    data-ru="Этапы разработки">
+                <h2 class="section-title wow animate__animated animate__fadeInLeft">
                     Этапы создания проекта
                 </h2>
                 <div class="work-process-block wow animate__animated animate__zoomIn" data-wow-delay="0.3s">
                     <div class="work-process-item">
-                        <h3 class="work-process-item-title work-process-item-title-first" data-en="Getting a task"
-                            data-ru="Получение задачи">Получение задачи</h3>
+                        <h3 class="work-process-item-title work-process-item-title-first">Получение задачи</h3>
                     </div>
                     <div class="work-process-item">
-                        <h3 class="work-process-item-title" data-en="Task Analysis" data-ru="Анализ задачи">Анализ
-                            задачи
-                        </h3>
+                        <h3 class="work-process-item-title">Исследование и анализ:</h3>
                         <ul class="work-process-item-ul">
-                            <li data-en="assessment of volume and complexity;" data-ru="оценка объема и сложности;">
-                                оценка объема и сложности;
-                            </li>
-                            <li data-en="clarification of all requirements;" data-ru="уточнение всех требований;">
-                                уточнение всех требований;
-                            </li>
-                            <li data-en="study of trends on the topic of the problem;"
-                                data-ru="изучение тенденций по теме задачи;">
-                                изучение тенденций по теме задачи;
-                            </li>
-                            <li data-en="competitor product analysis;" data-ru="анализ продуктов конкурентов;">
-                                анализ продуктов конкурентов;
-                            </li>
-                            <li data-en="identification of shortcomings." data-ru="выявление недочетов.">
-                                выявление недочетов.
-                            </li>
+                            <li>оценка объема и сложности;</li>
+                            <li>уточнение требований заказчика;</li>
+                            <li>изучение тенденций по теме задачи;</li>
+                            <li>анализ аудитории и конкурентов;</li>
+                            <li>выявление недочетов.</li>
                         </ul>
                     </div>
                     <div class="work-process-item">
-                        <h3 class="work-process-item-title" data-en="Planning" data-ru="Планирование">Планирование</h3>
+                        <h3 class="work-process-item-title">Планирование</h3>
                         <ul class="work-process-item-ul">
-                            <li data-en="thinking through the technology stack;"
-                                data-ru="продумывание стека технологий;">продумывание стека технологий;</li>
-                            <li data-en="drawing up a work plan;" data-ru="составление плана работы;">составление плана
-                                работы;
-                            </li>
-                            <li data-en="setting deadlines;" data-ru="постановка дедлайнов;">постановка дедлайнов;</li>
-                            <li data-en="choice of priority development principle."
-                                data-ru="выбор приоритетного принципа разработки."> выбор приоритетного принципа
-                                разработки.
-                            </li>
+                            <li>создание брифа</li>
+                            <li>составление плана работы;</li>
+                            <li>выбор инструментов и методов;</li>
+                            <li>разработка плана и постановка дедлайнов.</li>
                         </ul>
                     </div>
                     <div class="work-process-item work-process-item-double">
                         <div class="item-double">
-                            <h3 class="work-process-item-title" data-en="Frontend workflow"
-                                data-ru="Процесс работы frontend">Процесс работы frontend</h3>
+                            <h3 class="work-process-item-title">Дизайн</h3>
                             <ul class="work-process-item-ul">
-                                <li data-en="selection of optimal solutions;" data-ru="подбор оптимальных решений;">
-                                    подбор оптимальных решений;
-                                </li>
-                                <li data-en="creation of semantic and cross-browser layout;"
-                                    data-ru="создание семантичной и кроссбраузерной верстки;">
-                                    создание семантичной и кроссбраузерной верстки;
-                                </li>
-                                <li data-en="adaptability of each block." data-ru="адаптивноть каждого блока.">
-                                    адаптивноть каждого блока.
-                                </li>
+                                <li>разработка общего стиля и идей для проекта;</li>
+                                <li>создание черновых макетов и схем для утверждения клиентом;</li>
+                                <li>разработка графики, иллюстраций, логотипов и других дизайн-элементов;</li>
+                                <li>проектирование интерфейса, создание визуальных прототипов.</li>
                             </ul>
                         </div>
                         <div class="item-double">
-                            <h3 class="work-process-item-title" data-en="Work process design"
-                                data-ru="Процесс работы дизайн">Процесс работы дизайн</h3>
+                            <h3 class="work-process-item-title">Разработка</h3>
                             <ul class="work-process-item-ul">
-                                <li data-en="designing user interfaces;"
-                                    data-ru="проектирование пользовательских интерфейсов;">
-                                    проектирование пользовательских интерфейсов;
-                                </li>
-                                <li data-en="development of additional visual components."
-                                    data-ru="разработка дополнительных визуальных компонентов.">
-                                    разработка дополнительных визуальных компонентов.
-                                </li>
+                                <li>верстка и программирование;</li>
+                                <li>адаптация каждого блока;</li>
+                                <li>внесение правок на основе тестов и обратной связи.</li>
                             </ul>
                         </div>
-
                     </div>
                     <div class="work-process-item">
-                        <h3 class="work-process-item-title" data-en="Submitting work for review"
-                            data-ru="Сдача работы на ревью">Сдача работы на ревью</h3>
+                        <h3 class="work-process-item-title">Сдача работы</h3>
                         <ul class="work-process-item-ul">
-                            <li data-en="coordination of the work done;" data-ru="согласование проделанной работы;">
-                                согласование проделанной работы;
-                            </li>
-                            <li data-en="improvements and amendments;" data-ru="доработки и внесение правок;">
-                                доработки и внесение правок;
-                            </li>
-                            <li data-en="final delivery of the finished project."
-                                data-ru="конечная сдача готового проекта.">
-                                конечная сдача готового проекта.
-                            </li>
+                            <li>согласование проделанной работы;</li>
+                            <li>доработки и внесение правок;</li>
+                            <li>запуск готового продукта.</li>
                         </ul>
                     </div>
                 </div>
@@ -385,413 +295,291 @@
 
         <section class="section projects" id="projects">
             <div class="container">
-                <h2 class="section-title wow animate__animated animate__fadeInLeft" data-en="Projects"
-                    data-ru="Проекты">Проекты</h2>
+                <h2 class="section-title wow animate__animated animate__fadeInLeft">Проекты</h2>
 
                 <div id="myBtnContainer" class="wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
-                    <button class="filter-btn active" onclick="filterSelection('all')" data-en="Projects"
-                        data-ru="Проекты">Все</button>
-                    <button class="filter-btn" onclick="filterSelection('front')">Frontend</button>
-                    <button class="filter-btn" onclick="filterSelection('design')" data-en="Design"
-                        data-ru="Дизайн">Дизайн</button>
+                    <button class="filter-btn active" onclick="filterSelection('all')">Все</button>
+                    <button class="filter-btn" onclick="filterSelection('web')">Веб-дизайн</button>
+                    <button class="filter-btn" onclick="filterSelection('posm')">POSM</button>
+                    <button class="filter-btn" onclick="filterSelection('ads')">Рекламная кампания</button>
                 </div>
 
                 <div class="cards wow animate__animated animate__fadeInUp">
 
-                    <div class="card filterDiv front design">
+                    <div class="card filterDiv web ads">
                         <div class="card-project-block">
-                            <img class="card-project-image" src="img/project/ПроАрт.jpg"
-                                alt="Образовательная платформа «ПроАрт»">
+                            <img class="card-project-image" src="img/works/ПроАрт.png" alt="Образовательная платформа «ПроАрт»">
 
                             <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Educational platform «ProArt»"
-                                        data-ru="Образовательная платформа «ПроАрт»">
-                                        Образовательная платформа «ПроАрт»
-                                    </h3>
-                                </div>
-
                                 <div class="card-info">
                                     <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">HTML/CSS</p>
-                                        <p class="project-paragraph about-box-text">JS</p>
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
                                         <p class="project-paragraph about-box-text">Figma</p>
                                         <p class="project-paragraph about-box-text">Adobe Illustrator</p>
+                                        <p class="project-paragraph about-box-text">HTML/CSS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/183054081/obrazovatelnaja-platforma-proart-cuprematizm" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv ads">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Social media posts.png" alt="Social media posts">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/183147071/Social-media-posts-HUMANS-tariffs" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv web">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Data Safe.png" alt="Data-Safe (web-platforma)">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Figma</p>
+                                        <p class="project-paragraph about-box-text">HTML/CSS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/182476995/Data-Safe-(veb-platforma)" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv posm">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/POS-materials.png" alt="POS-materials">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/183218675/POS-materials" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv web">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Кориэлт.png" alt="Сайт аренды коммерческой недвижимости">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Figma</p>
+                                        <p class="project-paragraph about-box-text">Adobe Photoshop</p>
+                                        <p class="project-paragraph about-box-text">HTML/CSS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/182258239/Corealt" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv web ads">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Advertising campaign.png" alt="Advertising campaign">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Figma</p>
                                         <p class="project-paragraph about-box-text">Adobe Photoshop</p>
                                         <p class="project-paragraph about-box-text">Adobe After Effects</p>
-                                        <p class="project-paragraph about-box-text">Wix</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block">
-                                <div class="link-wrap">
-                                    <a class="block-link block-link-double"
-                                        href="https://zhidkoulyana.wixsite.com/suprematism" target="_blank"
-                                        data-en="Look at the project" data-ru="Посмотреть проект">Посмотреть
-                                        проект</a>
-                                    <a class="block-link block-link-double"
-                                        href="https://ulyanazhidko.github.io/ProArt/" target="_blank"
-                                        data-en="Look look at the site" data-ru="Посмотреть сайт">Посмотреть сайт</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv front design">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/project/corealt.jpg"
-                                alt="Сайт аренды коммерческой недвижимости">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Commercial property rental website"
-                                        data-ru="Сайт аренды коммерческой недвижимости">
-                                        Сайт аренды коммерческой недвижимости
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">HTML/CSS</p>
-                                        <p class="project-paragraph about-box-text">JS</p>
-                                        <p class="project-paragraph about-box-text">Figma</p>
-                                        <p class="project-paragraph about-box-text">Adobe Photoshop</p>
-                                        <p class="project-paragraph about-box-text">Wix</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="card-block card-block-poster">
                                 <div class="link-wrap">
-                                    <a class="block-link block-link-double"
-                                        href="https://zhidkoulyana.wixsite.com/corealt" target="_blank"
-                                        data-en="Look at the project" data-ru="Посмотреть проект">Посмотреть проект</a>
-                                    <a class="block-link block-link-double"
-                                        href="https://ulyanazhidko.github.io/Corealt/" target="_blank"
-                                        data-en="Look look at the site" data-ru="Посмотреть сайт">Посмотреть сайт</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv design">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/photo/смакуй.jpg" alt="проект фестиваля">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Festival project" data-ru="Проект фестиваля">
-                                        Проект фестиваля
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">Adobe Illustrator</p>
-                                        <p class="project-paragraph about-box-text">Adobe After Effects</p>
-                                        <p class="project-paragraph about-box-text">Tilda</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block">
-                                <div class="link-wrap">
-                                    <a class="block-link" href="http://smakui.tilda.ws/" target="_blank" data-en="Look"
-                                        data-ru="Посмотреть">Посмотреть</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv front">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/project/bloger.png" alt="сайт для блогеров">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Website for finding bloggers-experts"
-                                        data-ru="Сайт для поиска блогеров-экспертов">
-                                        Сайт для поиска блогеров-экспертов
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">HTML/CSS</p>
-                                        <p class="project-paragraph about-box-text">Adobe Illustrator</p>
-                                        <p class="project-paragraph about-box-text">Figma</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block">
-                                <div class="link-wrap">
-                                    <a class="block-link" href="https://ulyanazhidko.github.io/bloggers/"
-                                        target="_blank" data-en="Look" data-ru="Посмотреть">Посмотреть</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv design">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/photo/bvlgari.png" alt="фотоплакаты">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Photo posters" data-ru="Фотоплакаты">
-                                        Фотоплакаты
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text" data-en="Camera"
-                                            data-ru="Фотоаппарат">Фотоаппарат</p>
-                                        <p class="project-paragraph about-box-text">Adobe Photoshop</p>
-                                        <p class="project-paragraph about-box-text">Wix</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block card-block-poster">
-                                <div class="link-wrap">
-                                    <a class="block-link" href="https://zhidkoulyana.wixsite.com/bvlgaryposters"
-                                        target="_blank" data-en="Look" data-ru="Посмотреть">Посмотреть</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv front">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/project/DS.jpg" alt="Сайт системы мониторинга">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Monitoring system website"
-                                        data-ru="Сайт системы мониторинга">
-                                        Сайт системы мониторинга
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">Figma</p>
-                                        <p class="project-paragraph about-box-text">HTML/CSS</p>
-                                        <p class="project-paragraph about-box-text">JS</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block card-block-poster">
-                                <div class="link-wrap">
-                                    <a class="block-link" href="https://ulyanazhidko.github.io/DS/index.html"
-                                        target="_blank" data-en="Look" data-ru="Посмотреть">Посмотреть</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv design">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/photo/ihana.png" alt="приложение IHANA">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Application design and prototyping"
-                                        data-ru="Дизайн и прототипирование приложения">
-                                        Дизайн и прототипирование приложения
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">Figma</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block card-block-poster">
-                                <div class="link-wrap">
-                                    <a class="block-link"
-                                        href="https://www.figma.com/proto/27iwtDwhwgwagDixf2kDhN/Ihana?node-id=1%3A83&scaling=scale-down&page-id=0%3A1"
-                                        target="_blank" data-en="Look" data-ru="Посмотреть">Посмотреть</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv front">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/project/Мк.png"
-                                alt="Сайт «МК Правовые технологии»">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Website «MK Legal Technologies»"
-                                        data-ru="Сайт «МК Правовые технологии»">
-                                        Сайт «МК Правовые технологии»
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">HTML/CSS</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block card-block-poster">
-                                <div class="link-wrap">
-                                    <a class="block-link" href="https://ulyanazhidko.github.io/MK-test/" target="_blank"
-                                        data-en="Look" data-ru="Посмотреть">Посмотреть</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv design">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/photo/инфографика_uiux.jpg"
-                                alt="инфографика ui/ux">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title"
-                                        data-en="Infographics: a systematic approach on the example of UI/UX"
-                                        data-ru="Инфографика: системный подход на&nbsp;примере UI/UX">
-                                        Инфографика: системный подход на&nbsp;примере UI/UX
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">Adobe Illustrator</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block card-block-poster">
-                                <div class="link-wrap">
-                                    <a class="block-link" href="img/photo/инфографика_uiux.jpg"
-                                        class="card filterDiv design" data-fancybox="images">
-                                        <img src="img/zoom-in.svg" class="card-block-img" alt="zoom-in">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/183209059/Advertising-campaign" target="_blank">
+                                        Посмотреть на Behance
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card filterDiv design">
+                    <div class="card filterDiv posm">
                         <div class="card-project-block">
-                            <img class="card-project-image" src="img/photo/Bauhaus.jpg" alt="Коллаж в стиле Bauhaus">
+                            <img class="card-project-image" src="img/works/Flyer design.png" alt="Flyer design">
 
                             <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Bauhaus style collage"
-                                        data-ru="Коллаж в стиле Bauhaus">
-                                        Коллаж в стиле Bauhaus
-                                    </h3>
-                                </div>
-
                                 <div class="card-info">
                                     <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text" data-en="Camera"
-                                            data-ru="Фотоаппарат">Фотоаппарат</p>
-                                        <p class="project-paragraph about-box-text">Adobe Photoshop</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block card-block-poster">
-                                <div class="link-wrap">
-                                    <a class="block-link" href="img/photo/Bauhaus.jpg" class="card filterDiv design"
-                                        data-fancybox="images">
-                                        <img src="img/zoom-in.svg" class="card-block-img" alt="zoom-in">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv design">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/photo/флакон.jpg" alt="Упаковка и флакон духов">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Perfume packaging and bottle development"
-                                        data-ru="Разработка упаковки и флакона духов">
-                                        Разработка упаковки и флакона духов
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">3ds Max</p>
-                                        <p class="project-paragraph about-box-text">Adobe Illustrator</p>
-                                        <p class="project-paragraph about-box-text">Substance Painter</p>
-                                        <p class="project-paragraph about-box-text">AutoCAD</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-block card-block-poster">
-                                <div class="link-wrap">
-                                    <a class="block-link" href="img/photo/флакон.jpg" class="card filterDiv design"
-                                        data-fancybox="images">
-                                        <img src="img/zoom-in.svg" class="card-block-img" alt="zoom-in">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card filterDiv design">
-                        <div class="card-project-block">
-                            <img class="card-project-image" src="img/photo/флаеры.jpg" alt="Дизайн флаера">
-
-                            <div class="card-text">
-                                <div class="card-heading">
-                                    <h3 class="card-title" data-en="Flyer design" data-ru="Дизайн флаера">
-                                        Дизайн флаера
-                                    </h3>
-                                </div>
-
-                                <div class="card-info">
-                                    <div class="category">
-                                        <h4 class="project-subtitle card-susubtitle" data-en="Tools:"
-                                            data-ru="Инструменты:">Инструменты:</h4>
-                                        <p class="project-paragraph about-box-text">Adobe Illustrator</p>
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
                                         <p class="project-paragraph about-box-text">Adobe InDesign</p>
+                                        <p class="project-paragraph about-box-text">Adobe Illustrator</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="card-block card-block-poster">
                                 <div class="link-wrap">
-                                    <a class="block-link" href="img/photo/флаеры.jpg" class="card filterDiv design"
-                                        data-fancybox="images">
-                                        <img src="img/zoom-in.svg" class="card-block-img" alt="zoom-in">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/183155559/Flyer-designt" target="_blank">
+                                        Посмотреть на Behance
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <div class="card filterDiv web ads">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Фестиваль.png" alt="Фестиваль Смакуй">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Adobe Illustrator</p>
+                                        <p class="project-paragraph about-box-text">Adobe Photoshop</p>
+                                        <p class="project-paragraph about-box-text">Adobe After Effects</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/182312481/dizajn-festivalja-smakuj" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv web">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Web page.png" alt="Страница сайта Карьера в HUMANS">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/183232437/Web-page" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv posm">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Инфографика.png" alt="Инфографика: cистемный подход">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Adobe Photoshop</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/183224397/infografika-cistemnyj-podhod-v-dizajne" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv web">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Webmart.png" alt="Webmart Production">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Figma</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/182201179/Webmart-Production" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card filterDiv ads">
+                        <div class="card-project-block">
+                            <img class="card-project-image" src="img/works/Фотоплакаты.png" alt="Фотоплакаты">
+
+                            <div class="card-text">
+                                <div class="card-info">
+                                    <div class="category">
+                                        <h4 class="project-subtitle card-susubtitle">Инструменты:</h4>
+                                        <p class="project-paragraph about-box-text">Фотоаппарат</p>
+                                        <p class="project-paragraph about-box-text">Adobe Photoshop</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-block card-block-poster">
+                                <div class="link-wrap">
+                                    <a class="block-link block-link-double" href="https://www.behance.net/gallery/183075851/fotoplakaty-dlja-BVLGARI" target="_blank">
+                                        Посмотреть на Behance
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -800,23 +588,20 @@
 
     <footer class="section" id="contacts">
         <div class="container">
-            <h2 class="section-title wow animate__animated animate__fadeInLeft" data-en="Contact with me"
-                data-ru="Свяжитесь со мной">Свяжитесь со мной</h2>
+            <h2 class="section-title wow animate__animated animate__fadeInLeft">Свяжитесь со мной</h2>
             <div class="contacts-block">
 
                 <div class="contacts-text">
 
                     <div class="contacts-data wow animate__animated animate__fadeInLeft" data-wow-delay="0.9s">
                         <div class="contacts-phone">
-                            <h4 class="contacts-title" data-en="Phone" data-ru="Телефон">Телефон</h4>
+                            <h4 class="contacts-title">Телефон</h4>
                             <a class="contacts-link" href="tel:+998337167805">+998 33 716-78-05</a>
                         </div>
                         <!-- social-icins -->
-                        <div class="social-links footer-social-links wow animate__animated animate__zoomIn"
-                            data-wow-delay="1.2s">
+                        <div class="social-links footer-social-links wow animate__animated animate__zoomIn" data-wow-delay="1.2s">
 
-                            <a href="https://github.com/UlyanaZhidko?tab=repositories" class="social-link"
-                                target="_blank">
+                            <a href="https://github.com/UlyanaZhidko?tab=repositories" class="social-link" target="_blank">
                                 <svg width="22" height="22" class="social-link-icon">
                                     <use xlink:href="img/icons.svg#github"></use>
                                 </svg>
@@ -833,24 +618,26 @@
                                     <use xlink:href="img/icons.svg#linkedin"></use>
                                 </svg>
                             </a>
+
+                            <a href="https://www.behance.net/ulyanaZhidko" class="social-link" target="_blank">
+                                <svg width="22" height="22" class="social-link-icon">
+                                    <use xlink:href="img/icons.svg#behance"></use>
+                                </svg>
+                            </a>
                         </div>
 
                         <div class="contacts-mail">
-                            <h4 class="contacts-title" data-en="Mail" data-ru="Почта">Почта</h4>
+                            <h4 class="contacts-title">Почта</h4>
                             <a class="contacts-link" href="mailto:zhidko.ulyana@gmail.com">zhidko.ulyana@gmail.com</a>
                         </div>
 
                     </div>
 
                     <div class="dd">
-
                         <div class="back">
-
                             <div class="my-cv wow animate__animated animate__fadeIn" data-wow-delay="1.4s">
 
-                                <a href="https://drive.google.com/file/d/1sri_sOymzrVh2TCFmcO6yClvnbdImOmX/view?usp=sharing"
-                                    class="contacts-link" target="_blank" data-en="My resume (.pdf)"
-                                    data-ru="Мое резюме (.pdf)">
+                                <a href="https://drive.google.com/file/d/1sri_sOymzrVh2TCFmcO6yClvnbdImOmX/view?usp=sharing" class="contacts-link" target="_blank">
                                     Мое резюме (.pdf)
                                     <svg width="30" height="30">
                                         <use xlink:href="img/icons.svg#cv"></use>
@@ -859,9 +646,7 @@
                             </div>
 
                             <div class="contacts-police-form">
-                                <a class="contacts-police add__ad wow animate__animated animate__fadeIn"
-                                    data-wow-delay="1.4s" data-en="Privacy Policy"
-                                    data-ru="Политика конфиденциальности">
+                                <a class="contacts-police add__ad wow animate__animated animate__fadeIn" data-wow-delay="1.4s">
                                     Политика конфиденциальности
                                 </a>
                             </div>
@@ -871,28 +656,17 @@
                     <div class="modal modal__add hide">
                         <div class="modal__block">
                             <div class="on-hover">
-                                <p data-en="This page does not collect data about you, but because it is hosted on github pages, it is subject to the github privacy policy. It would be fair for you to place part of the policy here so that you know what information has been collected about you when you visit this page:"
-                                    data-ru="Эта страница не собирает данные о Вас, но так как она расположена на github pages на неё распространяется политика конфиденциальности github. По отношению к Вам будет
-                                    честно расположить здесь часть политики, чтобы Вы знали, какую информацию о вас собрали при посещении этой страницы:">
-                                    Эта страница не собирает данные о Вас, но так как она расположена на github pages на
-                                    неё распространяется политика конфиденциальности github. По отношению к Вам будет
-                                    честно расположить здесь часть политики, чтобы Вы знали, какую информацию о вас
-                                    собрали
+                                <p>
+                                    Эта страница не собирает данные о Вас, но так как она расположена на github pages на неё распространяется политика конфиденциальности github. По отношению к Вам будет честно расположить здесь часть политики, чтобы Вы знали, какую информацию о вас собрали
                                     при посещении этой страницы:
                                 </p>
                             </div>
                             <div class="modal__content text-block hidden-block">
                                 <p>
-                                    If you're accessing our Service or Website, we automatically collect the same basic
-                                    information that most services collect, subject, where necessary, to your consent.
-                                    This includes information about how you use the Service, such as the pages you view,
-                                    the referring site, your IP address and session information, and the date and time
-                                    of each request. This is information we collect from every visitor to the Website,
-                                    whether they have an Account or not. This information
+                                    If you're accessing our Service or Website, we automatically collect the same basic information that most services collect, subject, where necessary, to your consent. This includes information about how you use the Service, such as the pages you view,
+                                    the referring site, your IP address and session information, and the date and time of each request. This is information we collect from every visitor to the Website, whether they have an Account or not. This information
                                     may include User Personal information.
-                                    <br> We may collect certain information about your device, such as its IP address,
-                                    browser or client application information, language preference, operating system and
-                                    application version, device type and ID, and device
+                                    <br> We may collect certain information about your device, such as its IP address, browser or client application information, language preference, operating system and application version, device type and ID, and device
                                     model and manufacturer. This information may include User Personal information.
                                 </p>
                             </div>
