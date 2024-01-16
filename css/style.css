@@ -2,8 +2,22 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     max-width: 100%;
+}
+
+.first-block,
+.second-block,
+.third-block {
+    background-color: rgb(0, 0, 0);
+}
+
+.fourth-block {
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 17.44%);
 }
 
 body {
@@ -118,7 +132,7 @@ body {
 }
 
 .relocation-icon {
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .relocate-item {
@@ -130,26 +144,20 @@ body {
 
 /* skills */
 
-.first-skills {
-    display: flex;
-    width: 50%;
-    align-items: baseline;
-}
-
-.flex-cont {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.skill {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 5px;
 }
 
 .skills {
-    background-color: rgb(0, 0, 0);
-    min-width: 140px;
-}
-
-.skills-project {
-    width: 100%;
-    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-bar {
@@ -187,26 +195,8 @@ body {
     background-color: #FFBB01;
 }
 
-.plus {
-    display: flex;
-    color: #FFBB01;
-    font-size: 70px;
-    font-weight: 700;
-}
-
-.other-skills {
-    width: 260px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 /* work-process*/
-
-.work-process {
-    background-color: rgb(0, 0, 0);
-}
 
 .work-process-block {
     display: flex;
@@ -256,7 +246,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 40px;
-    background: #000;
+    background: #20202d;
     color: #FFBB01;
     border: 2px solid #FFBB01;
     left: -18px;
@@ -293,7 +283,7 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    border-color: rgba(255, 0, 0, 0) transparent hsla(0, 0%, 100%, 0) rgb(0, 0, 0);
+    border-color: rgba(255, 0, 0, 0) transparent hsla(0, 0%, 100%, 0) #20202d;
     border-style: solid;
     border-width: 15px;
     -webkit-filter: drop-shadow(3px 0 0 #FFBB01);
@@ -313,10 +303,6 @@ body {
 
 
 /* work */
-
-.work {
-    background: #000;
-}
 
 .work_experience {
     margin-bottom: 30px;
@@ -384,10 +370,6 @@ blockquote {
     border: 2px solid #FFBB01;
     border-radius: 25px;
     min-width: 120px;
-}
-
-.projects {
-    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 17.44%);
 }
 
 .project-subtitle {
@@ -645,7 +627,6 @@ blockquote {
 
 .card-project-image {
     height: 150px;
-    object-fit: cover;
     width: 100%;
     border-radius: 8px 8px 0 0;
     -webkit-border-radius: 8px 8px 0 0;
@@ -687,6 +668,39 @@ blockquote {
     margin-bottom: 205px;
 }
 
+.view_project {
+    display: flex;
+    justify-content: center;
+}
+
+.view_btn {
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    background-color: #FFBB01;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.view_btn:hover {
+    background-color: #fff;
+    color: #000;
+    transform: translateY(-7px);
+}
+
+
+/* to top */
+
 #upbutton {
     background: url("../img/top-arrow.svg") no-repeat top left;
     height: 60px;
@@ -717,36 +731,6 @@ blockquote {
     }
 }
 
-@media(min-width: 992px) {
-    .flex-cont {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-basis: 100%;
-        flex-wrap: wrap;
-    }
-    .first-skills {
-        display: flex;
-        width: 50%;
-        align-items: baseline;
-        flex-basis: 50%;
-    }
-    .plus {
-        display: flex;
-        color: #FFBB01;
-        font-size: 70px;
-        font-weight: 700;
-        flex-wrap: wrap;
-    }
-    .other-skills {
-        width: 290px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-}
-
 @media (max-width: 836px) {
     .hero-content {
         display: flex;
@@ -754,38 +738,28 @@ blockquote {
         align-items: center;
         flex-direction: column;
     }
+
     .hero-header {
         margin-bottom: 10px;
     }
+
     .hero-avatar {
         order: 0;
         margin-bottom: 17px;
     }
+
     .hero-text {
         order: 1;
         text-align: center;
     }
+
     .contacts-block {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .contacts-form {
         margin-bottom: 58px;
-    }
-    .flex-cont {
-        justify-content: center;
-        flex-basis: 100%;
-        flex-wrap: wrap;
-    }
-    .first-skills {
-        flex-basis: 100%;
-    }
-    .plus {
-        flex-wrap: wrap;
-    }
-    .other-skills {
-        flex-wrap: wrap;
-        margin-left: 40px;
     }
 }
 
@@ -793,13 +767,16 @@ blockquote {
     .card-title {
         min-height: 0px;
     }
+
     .section-title {
         font-size: 25px;
         margin-bottom: 20px;
     }
+
     .text-block:hover {
         height: 250px;
     }
+
     .card {
         background: #fff;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
@@ -815,25 +792,40 @@ blockquote {
         -ms-border-radius: 7px;
         -o-border-radius: 7px;
     }
+
+    .card-project-image {
+        height: 195px;
+    }
+
+    .card-project-block:hover .card-block {
+        height: 195px;
+        padding: 50px;
+    }
+
     .work-process-item {
         flex-basis: 96%;
     }
+
     .work-process-item-double {
         flex-direction: column;
     }
+
     .work-process-item:not(:last-child):after {
         top: calc(50% - -49.5%);
         transform: rotate(90deg);
         right: calc(50% - 18px);
     }
+
     .filter-btn {
         margin-right: 0px;
         font-size: 14px;
         min-width: 90px;
     }
+
     .filter-btn.active {
         min-width: 90px;
     }
+
     .blockquote_ul {
         padding-left: 0px;
     }
@@ -843,97 +835,110 @@ blockquote {
     .hero {
         padding-bottom: 50px;
     }
+
     .hero-avatar {
         width: 113px;
         height: 113px;
         border: 3px solid #FFBB01;
         background-position: center top -9px;
     }
+
     .hero-header {
         margin-bottom: 38px;
     }
+
     .hero-title {
         font-size: 25px;
         line-height: 28px;
         margin-bottom: 4px;
     }
+
     .hero-discription {
         font-size: 14px;
         line-height: 140%;
         margin-bottom: 0;
     }
+
     .section {
         padding: 40px 0;
     }
+
     .hero-header-social {
         flex-direction: column;
     }
+
     .hero-header-social .contacts-link {
         margin-right: 0;
     }
+
     .hero-header-icons {
         margin-bottom: 13px;
     }
+
     .footer-social-links {
         margin-bottom: 30px;
     }
+
     .project-paragraph {
         max-width: 210px;
         font-size: 14px;
     }
+
     .contacts-form {
         padding: 40px 19px;
     }
+
     .form-title {
         font-size: 15px;
         line-height: 140%;
     }
+
     .contacts-phone,
     .contacts-mail {
         flex-basis: 100%;
         margin-bottom: 30px;
     }
+
     .contacts-title {
         font-size: 18px;
         line-height: 21px;
     }
+
     .contacts-data {
         margin-bottom: 0;
     }
+
     .contacts-link {
         font-size: 14px;
         line-height: 16px;
         margin-bottom: 13px;
     }
+
     blockquote p {
         font-size: 16px;
     }
+
     .my-cv {
         flex-basis: 100%;
         margin-top: 20px;
     }
+
     .contacts-police {
         margin-top: 50px;
     }
+
     .bar {
         font-size: 10px;
     }
+
     .skills {
         font-size: 14px;
     }
-    .skills-project {
-        margin: 0;
-    }
-    .plus p {
-        margin: 0;
-    }
-    .other-skills {
-        margin-left: 0;
-        justify-content: space-around;
-    }
+
     .back {
         justify-content: start;
     }
+
     .modal__block {
         background-color: #20202d;
         padding: 60px 30px 30px;
@@ -942,16 +947,20 @@ blockquote {
         position: relative;
         font-size: 12px;
     }
+
     .modal__block {
         font-size: 12px;
     }
+
     .text-block:hover {
         height: 190px;
     }
+
     .card {
         flex-basis: 58%;
         margin-left: 25%;
     }
+
     .card:hover {
         transform: none;
     }
@@ -961,6 +970,7 @@ blockquote {
     .text-block:hover {
         height: 220px;
     }
+
     .card {
         flex-basis: 58%;
     }
@@ -970,14 +980,13 @@ blockquote {
     .text-block:hover {
         height: 250px;
     }
+
     .card {
         flex-basis: 62%;
     }
+
     .relocate-item {
         margin: 0 auto;
-    }
-    .relocation-icon {
-        margin-right: 6px;
     }
 }
 
@@ -985,10 +994,21 @@ blockquote {
     .text-block:hover {
         height: 290px;
     }
+
     .card {
         flex-basis: 100%;
         margin-left: 0;
     }
+
+    .card-project-image {
+        height: 242px;
+    }
+
+    .card-project-block:hover .card-block {
+        height: 243px;
+        padding: 80px;
+    }
+
     .card-project-block {
         width: auto;
     }
