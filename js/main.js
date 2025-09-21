@@ -1,6 +1,12 @@
 'use strict';
 
-new WOW().init();
+new WOW({
+  boxClass: 'wow',
+  animateClass: 'animate__animated', // WOW будет добавлять этот класс
+  offset: 0,
+  mobile: true,
+  live: true
+}).init();
 
 
 /* ---Политика конфидициальности -----*/

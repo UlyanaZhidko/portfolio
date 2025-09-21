@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.wow {
+  visibility: hidden;
+}
+.wow.animate__animated {
+  visibility: visible;
+}
+
 html {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
@@ -103,7 +110,7 @@ body {
 .hero-discription {
     font-size: 16px;
     line-height: 22px;
-    max-width: 389px;
+    max-width: 523px;
     margin: 10px 0;
 }
 
@@ -112,8 +119,8 @@ body {
 }
 
 .hero-avatar {
-    width: 389px;
-    height: 389px;
+    width: 320px;
+    height: 320px;
     background-color: #fff;
     border-radius: 50%;
     background-image: url(../img/avatar.jpg);
@@ -129,7 +136,7 @@ body {
 
 .relocation {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .relocation-icon {
